@@ -1,0 +1,261 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_redistribution" />
+  <mkdir dir="C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" />
+</ant>
+mcc -W 'excel:doge,Class1,1.0' -T link:lib -b -d 'C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing' -v 'C:\Users\Cole Swackhamer\OneDrive\OneDrive Docs\Bornhorst Lab\Almond Project\Main project\Method development\Lipid analysis\Excel plugin dev\doge.m' 'class{Class1:C:\Users\Cole Swackhamer\OneDrive\OneDrive Docs\Bornhorst Lab\Almond Project\Main project\Method development\Lipid analysis\Excel plugin dev\doge.m}' 
+Warning: Component "doge_1_0" will be registered for the current user only. 
+Applications that run with full administrative privileges cannot access the component. 
+To register the component for all users, run MATLAB or the mcc command as Administrator.
+[Warning: Function display has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[Warning: Function format has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+Begin validation of MEX files: Wed Apr 18 21:31:32 2018
+End validation of MEX files: Wed Apr 18 21:31:32 2018
+[Warning: Adding path "C:\Users\Cole Swackhamer\OneDrive\OneDrive Docs\Bornhorst
+Lab\Almond Project\Main project\Method development\Lipid analysis\Excel plugin
+dev" to Compiler path instance.] 
+Parsing file "C:\Users\Cole Swackhamer\OneDrive\OneDrive Docs\Bornhorst Lab\Almond Project\Main project\Method development\Lipid analysis\Excel plugin dev\doge.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files (x86)\MATLAB\R2014a\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files (x86)\MATLAB\R2014a\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_idl.idl".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com.hpp".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com.cpp".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_dll.cpp".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.rc".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.bas".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.xla".
+Generating file "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\readme.txt".
+Executing command: ""C:\Program Files (x86)\MATLAB\R2014a\bin\mbuild"  -client mbuild_com "OUTDIR=\"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\"" -O -v -output "doge_1_0" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing"  "COMIDL=\"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_idl.idl\"" "mclxlmain.lib" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com.cpp" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_dll.cpp"  "DEFFILE=\"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def\""  "RCFILE=\"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.rc\"" "RESFILE=\"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res\"" "LINKFLAGS=\"$LINKFLAGS delayimp.lib /delayload:mclmcrrt8_3.dll\"" -outdir "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" "CMDLINE275=\"\"$MATLABROOT\runtime\$ARCH\mwregsvr.exe\" /useronly $EXE\"""Verbose mode is on.
+No MEX options file identified; looking for an implicit selection.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft SDK 7.1' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft SDK 7.1'.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2008' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2008'.
+... Looking for compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2010 ' ...
+... Looking for environment variable 'ICPP_COMPILER12' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2011 with Microsoft Visual Studio 2010 '.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft SDK 7.1' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft SDK 7.1'.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2010' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2010'.
+... Looking for compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2012' ...
+... Looking for environment variable 'ICPP_COMPILER14' ...No.
+... Looking for environment variable 'ICPP_COMPILER13' ...No.
+Did not find installed compiler 'Intel C++ Composer XE 2013 with Microsoft Visual Studio 2012'.
+... Looking for compiler 'Microsoft Visual C++ 2012' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+... Looking for registry setting 'HKCU\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VS7' 11.0 ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2012'.
+... Looking for compiler 'Microsoft Visual C++ 2008 Professional' ...
+... Looking for environment variable 'VS90COMNTOOLS' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2008 Professional'.
+... Looking for compiler 'Microsoft Visual C++ 2010 Professional' ...
+... Looking for environment variable 'VS100COMNTOOLS' ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe' ...Yes.
+... Looking for folder 'c:\Program Files (x86)\Microsoft Visual Studio 10.0' ...Yes.
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A' InstallationFolder ...Yes ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\').
+... Looking for environment variable 'VS100COMNTOOLS' ...Yes ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\').
+... Looking for file 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2010 Professional'.
+... Looking for compiler 'Microsoft Visual C++ 2013 Professional' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 12.0 ...Yes ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\').
+... Looking for file 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe' ...Yes.
+... Looking for folder 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC' ...Yes.
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1' InstallationFolder ...Yes ('C:\Program Files (x86)\Windows Kits\8.1\').
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VS7' 12.0 ...Yes ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\').
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\VisualStudio\SxS\VC7' 12.0 ...Yes ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\').
+... Looking for environment variable 'VS120COMNTOOLS' ...Yes ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\').
+... Looking for file 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe' ...No.
+Did not find installed compiler 'Microsoft Visual C++ 2013 Professional'.
+... Looking for compiler 'Microsoft Windows SDK 7.1 (C++)' ...
+... Looking for registry setting 'HKLM\SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.1' InstallationFolder ...Yes ('C:\Program Files\Microsoft SDKs\Windows\v7.1\').
+... Looking for registry setting 'HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\SxS\VC7' 10.0 ...Yes ('C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\').
+... Looking for file 'C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe' ...Yes.
+... Looking for folder 'C:\Program Files (x86)\Microsoft Visual Studio 10.0' ...Yes.
+Found installed compiler 'Microsoft Windows SDK 7.1 (C++)'.
+Options file details
+-------------------------------------------------------------------
+	Compiler location: C:\Program Files (x86)\Microsoft Visual Studio 10.0
+	Options file: C:\Program Files (x86)\MATLAB\R2014a\bin\win32\mexopts\winsdk-7.1_cpp.xml
+	CMDLINE200 : link  /nologo /manifest  /incremental:NO delayimp.lib /delayload:mclmcrrt8_3.dll   /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def" C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\Class1_com.obj C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_dll.obj  mclxlmain.lib  /LIBPATH:"C:\Program Files (x86)\MATLAB\R2014a\extern\lib\win32\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res" /out:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll"
+	CMDLINE250 : mt -outputresource:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll";2 -manifest "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll.manifest"
+	CMDLINE300 : del "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll.manifest" mwcomutil.tlb "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res"
+	COMPILER : cl
+	COMPFLAGS : /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT
+	COMPDEFINES : /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0
+	MATLABMEX : 
+	OPTIMFLAGS : /O2 /Oy- /DNDEBUG
+	INCLUDE : -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing"  -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" -I"C:\Program Files (x86)\MATLAB\R2014a\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32"
+	DEBUGFLAGS : /Z7
+	LINKER : link
+	LINKFLAGS :  /nologo /manifest  /incremental:NO delayimp.lib /delayload:mclmcrrt8_3.dll
+	LINKTYPE : 
+	LINKEXPORT : /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def"
+	LINKLIBS : mclxlmain.lib  /LIBPATH:"C:\Program Files (x86)\MATLAB\R2014a\extern\lib\win32\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res"
+	LINKDEBUGFLAGS : /debug /PDB:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll.pdb"
+	LINKOPTIMFLAGS : 
+	OBJEXT : .obj
+	LDEXT : .dll
+	SETENV : set COMPILER=cl 
+				set COMPFLAGS=/c /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0  
+				set OPTIMFLAGS=/O2 /Oy- /DNDEBUG 
+				set DEBUGFLAGS=/Z7 
+				set LINKER=link 
+				set LINKFLAGS= /nologo /manifest  /incremental:NO delayimp.lib /delayload:mclmcrrt8_3.dll /export:%ENTRYPOINT%  mclxlmain.lib  /LIBPATH:"C:\Program Files (x86)\MATLAB\R2014a\extern\lib\win32\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res" /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def" 
+				set LINKDEBUGFLAGS=/debug /PDB:"%OUTDIR%%MEX_NAME%.dll.pdb" 
+				set NAME_OUTPUT=/out:"%OUTDIR%%MEX_NAME%%MEX_EXT%"
+	SDKROOT : C:\Program Files\Microsoft SDKs\Windows\v7.1\
+	VSROOT : C:\Program Files (x86)\Microsoft Visual Studio 10.0
+	MATLABROOT : C:\Program Files (x86)\MATLAB\R2014a
+	ARCH : win32
+	CMDLINE000 : copy "C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32\mwcomutil.tlb" .
+	CMDLINE001 : midl /nologo /win32 -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" mwcomtypes.idl
+	CMDLINE002 : midl /nologo /win32 -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_idl.idl"
+	CMDLINE150 : rc /fo "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.rc"
+	CMDLINE275 : "C:\Program Files (x86)\MATLAB\R2014a\runtime\win32\mwregsvr.exe" /useronly "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll"
+	OUTDIR : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing
+	COMPINCLUDE : -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include"
+	USERONLY : 
+	SRC : "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com.cpp";"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_dll.cpp"
+	OBJ : C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\Class1_com.obj;C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_dll.obj
+	OBJS : C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\Class1_com.obj C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_dll.obj 
+	SRCROOT : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com
+	DEF : C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_1_0.def
+	EXP : "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.exp"
+	LIB : "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.lib"
+	EXE : "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll"
+	ILK : "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.ilk"
+	MANIFEST : "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll.manifest"
+	TEMPNAME : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0
+	EXEDIR : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\
+	EXENAME : doge_1_0
+	COMIDL : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_idl.idl
+	DEFFILE : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def
+	RCFILE : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.rc
+	RESFILE : C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res
+	OPTIM : /O2 /Oy- /DNDEBUG
+	LINKOPTIM : 
+	CMDLINE100_0 : cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing"  -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" -I"C:\Program Files (x86)\MATLAB\R2014a\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\Class1_com.obj
+	CMDLINE100_1 : cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing"  -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" -I"C:\Program Files (x86)\MATLAB\R2014a\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_dll.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_dll.obj
+-------------------------------------------------------------------
+Building with 'Microsoft Windows SDK 7.1 (C++)'.
+Set PATH = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Bin\VCPackages;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Bin;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Bin;;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\MATLAB Runtime\v90\runtime\win64;C:\TDM-GCC-64\bin;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files (x86)\MATLAB\R2014a\runtime\win32;C:\Program Files (x86)\MATLAB\R2014a\bin;C:\Program Files (x86)\MATLAB\R2014a\polyspace\bin;C:\Users\Cole Swackhamer\AppData\Local\Microsoft\WindowsApps;C:\Users\Cole Swackhamer\AppData\Local\Box\Box Edit\;
+Set INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE;C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE;C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\gl;;
+Set LIB = C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\\Lib;;
+Set LIBPATH = C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\\LIB;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\ATLMFC\LIB;C:\Program Files (x86)\MATLAB\R2014a\extern\lib\win32;;
+copy "C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32\mwcomutil.tlb" .
+        1 file(s) copied.
+
+midl /nologo /win32 -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" mwcomtypes.idl
+mwcomtypes.idl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+basetsd.h
+guiddef.h
+ocidl.idl
+oleidl.idl
+servprov.idl
+urlmon.idl
+msxml.idl
+oaidl.acf
+ocidl.acf
+
+Processing C:\Program Files (x86)\MATLAB\R2014a\extern\include\mwcomtypes.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\objidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\unknwn.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\wtypes.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\basetsd.h
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\guiddef.h
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oleidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\servprov.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\urlmon.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\msxml.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.acf
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.acf
+
+midl /nologo /win32 -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" /D NDEBUG /out "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_idl.idl"
+doge_idl.idl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+basetsd.h
+guiddef.h
+ocidl.idl
+oleidl.idl
+servprov.idl
+urlmon.idl
+msxml.idl
+mwcomtypes.idl
+oaidl.acf
+ocidl.acf
+
+Processing C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_idl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\objidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\unknwn.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\wtypes.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\basetsd.h
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\guiddef.h
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oleidl.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\servprov.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\urlmon.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\msxml.idl
+Processing C:\Program Files (x86)\MATLAB\R2014a\extern\include\mwcomtypes.idl
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\oaidl.acf
+Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\\INCLUDE\ocidl.acf
+
+cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing"  -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" -I"C:\Program Files (x86)\MATLAB\R2014a\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\Class1_com.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\Class1_com.obj
+Class1_com.cpp
+
+cl /c /GR /W3 /EHsc- -Zc:wchar_t /nologo /MT /O2 /Oy- /DNDEBUG /DMSVC /DIBMPC /D_CRT_SECURE_NO_DEPRECATE /D_SECURE_SCL=0 -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing"  -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" -I"C:\Program Files (x86)\MATLAB\R2014a\simulink\include" -I"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include\win32" -I"C:\Program Files (x86)\MATLAB\R2014a\extern\include" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_dll.cpp" /FoC:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_dll.obj
+doge_dll.cpp
+
+rc /fo "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res" "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.rc"
+Microsoft (R) Windows (R) Resource Compiler Version 6.1.7600.16385
+
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+link  /nologo /manifest  /incremental:NO delayimp.lib /delayload:mclmcrrt8_3.dll   /DLL /def:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.def" C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\Class1_com.obj C:\Users\COLESW~1\AppData\Local\Temp\mex_75632620350793_7164\doge_dll.obj  mclxlmain.lib  /LIBPATH:"C:\Program Files (x86)\MATLAB\R2014a\extern\lib\win32\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib mclmcrrt.lib "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res" /out:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll"
+   Creating library C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.lib and object C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.exp
+
+mt -outputresource:"C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll";2 -manifest "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll.manifest"
+Microsoft (R) Manifest Tool version 6.1.7716.0
+
+Copyright (c) Microsoft Corporation 2009. 
+
+All rights reserved.
+
+
+"C:\Program Files (x86)\MATLAB\R2014a\runtime\win32\mwregsvr.exe" /useronly "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll"
+DllRegisterServer in C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll succeeded
+
+del "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge_1_0.dll.manifest" mwcomutil.tlb "C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_testing\doge.res"
+MEX completed successfully.
+Packaging...
+Creating the bundle...
+Web based installer created at C:\Users\Cole Swackhamer\Documents\MATLAB\doge\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
